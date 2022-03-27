@@ -1,0 +1,13 @@
+#gridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 20vh 20vh 20vh;
+      grid-template-rows: 20vh 20vh 20vh;
+}
+
+#gridContainer div {
+  border: navy solid 2px;
+}
+/*# sourceMappingURL=style.css.map */

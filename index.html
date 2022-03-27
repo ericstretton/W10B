@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
     <script src="js/app.js" defer></script>
-    <title>Document</title>|
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
     
 </head>
 <body>
     <h1>Hello</h1>
     <nav>
         <a href="index.html">Home Page</a>
-        <a href="selection.html">Selection Page</a>
+        <!-- <a id="operable" onclick="operateSelectionPage(this)" href="selection.html">Selection Page</a> -->
     </nav>
 
 
     <div id="gridContainer">
-        <div onclick="addItem()">
+        <div onclick="addItem(this)">
             <h2>
                 Red
             </h2>
         </div>
-        <div>
+        <div onclick="addItem(this)">
             <h2>
                 Green
             </h2>
         </div>
-        <div>
+        <div onclick="addItem(this)">
             <h2>
                 Blue
             </h2>
