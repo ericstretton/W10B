@@ -1,3 +1,5 @@
+// function to set a cookie and redirect to selection Page
+
 function addItem(item){
     console.log(item);
     let itemName = item.querySelector(`h2`).innerText;
@@ -8,6 +10,8 @@ function addItem(item){
 }
 let cart = [];
 
+
+// Notify User to Make a selection upon opening the page
 
 if (cart != ""){
     console.log("Thank you for your selection");
